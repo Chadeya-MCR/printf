@@ -11,7 +11,7 @@ int printf_hex(va_list val)
 	int *array;
 	int count = 0;
 	unsigned int number = va_arg(val, unsigned int);
-	unsigned int temp = num;
+	unsigned int temp = number;
 
 	while (number / 16 != 0)
 	{
