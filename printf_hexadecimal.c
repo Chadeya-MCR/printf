@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * printf_hex - prints an hexadecimal number.
+ * printfhexadecimal - prints an hexadecimal number.
  * @val: arguments passed.
  * Return: counter.
  */
-int printf_hex(va_list val)
+int printfhexadecimal(va_list val)
 {
 	int x;
 	int *array;

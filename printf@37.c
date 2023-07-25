@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * printf_37 - prints the char 37.
+ * printf - prints the character 37.
  * Return: 1.
  */
-int printf_37(void)
+int printf(void)
 {
 	_putchar(37);
 	return (1);

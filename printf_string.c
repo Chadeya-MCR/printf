@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stddef.h>
 /**
- * printf_exclusive_string - print exclusuives string.
+ * printf_a_string - print exclusuives string.
  * @val: argumen t.
  * Return: the length of the string.
  */
 
-int printf_exclusive_string(va_list val)
+int printf_a_string(va_list val)
 {
 	char *s;
 	int i, length = 0;
