@@ -1,8 +1,19 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+<<<<<<< HEAD
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+#include <limits.h>
 #include <unistd.h>
 
+
+
+=======
+#include <unistd.h>
+
+>>>>>>> 4e17a83f18ed6a8dc901e932a8b07ac12f1eb1bd
 /**
  * struct format - match the conversion specifiers for printf
  * @id: type char pointer of the specifier i.e (l, h) for (d, i, u, o, x, X)
@@ -12,8 +23,13 @@
 
 typedef struct format
 {
+<<<<<<< HEAD
+	char *id;
+	int (*f)();
+=======
         char *id;
         int (*f)();
+>>>>>>> 4e17a83f18ed6a8dc901e932a8b07ac12f1eb1bd
 } convert_match;
 
 int printf_pointer(va_list val);
