@@ -1,4 +1,9 @@
 #include "main.h"
+<<<<<<< HEAD
+=======
+#include <stddef.h>
+#include <stdarg.h>
+>>>>>>> 4e17a83f18ed6a8dc901e932a8b07ac12f1eb1bd
 
 /**
  * printf_srev - function that prints a str in reverse
