@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdarg.h>
+
 /**
  * _strlen - Returns the lenght of a string.
  * @s: Type char pointer
