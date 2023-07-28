@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdarg.h>
+
 /**
  * printf_int - prints integer
  * @args: argument to print
